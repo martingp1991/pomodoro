@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://img.freepik.com/fotos-premium/cuaderno-escolar-diversos-suministros-sobre-fondo-madera-concepto-regreso-escuela_94095-96.jpg?w=2000");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+.box {
+    border-radius: 50px;
+    background: rgba(224, 224, 224, 0.5);
+    box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+    backdrop-filter: blur(1px);
+    opacity: 2; 
+  }
